@@ -2,6 +2,9 @@
   width: 1200px;
   margin: 0 auto; }
 
+.bg {
+  background: url(../foot/ic1.png) no-repeat center; }
+
 header .top {
   text-align: center;
   font: 12px/30px "";
@@ -59,6 +62,22 @@ header .nav {
   font: 16px/40px "";
   height: 40px;
   text-align: center; }
+  header .nav .item {
+    position: relative; }
+    header .nav .item .left {
+      float: left;
+      width: 200px;
+      height: 40px;
+      display: block;
+      background: #e6243f;
+      color: #fff; }
+    header .nav .item .one {
+      position: absolute;
+      left: 0;
+      top: 40px;
+      width: 200px;
+      height: 400px;
+      background: #e6243f; }
   header .nav ul {
     width: 592px;
     height: 40px;
@@ -72,27 +91,140 @@ header .nav {
     header .nav ul li .hot {
       color: #e6243f;
       font-weight: 700; }
-  header .nav .left {
-    float: left;
-    width: 200px;
-    height: 40px;
-    display: block;
-    background: #e6243f;
-    color: #fff; }
-  header .nav .right {
-    float: right;
-    width: 208px;
-    height: 40px;
-    display: block;
-    background: #e6243f;
-    color: #fff; }
+  header .nav .item2 {
+    position: relative; }
+    header .nav .item2 .one2 {
+      position: absolute;
+      right: 0;
+      top: 40px;
+      width: 208px;
+      height: 400px;
+      background: #fff; }
+    header .nav .item2 .right {
+      float: right;
+      width: 208px;
+      height: 40px;
+      display: block;
+      background: #e6243f;
+      color: #fff; }
 
 .banner {
   background: #f3e9df;
-  height: 402px; }
+  height: 400px; }
   .banner ul {
     position: relative; }
     .banner ul li {
       position: absolute;
       top: 0;
       left: 200px; }
+
+.main {
+  height: 420px;
+  background: url(../images/main.jpg) no-repeat center; }
+  .main .m-c img {
+    float: left; }
+
+footer {
+  border-top: 5px solid #34b9bc;
+  height: 443px; }
+  footer .f-t {
+    height: 82px;
+    border-bottom: 1px solid #e3e3e3; }
+    footer .f-t ul {
+      width: 1200px;
+      height: 82px;
+      margin: 0 auto; }
+      footer .f-t ul li {
+        margin-top: 14px;
+        float: left;
+        width: 200px;
+        height: 50px;
+        font: 16px/50px ""; }
+        footer .f-t ul li a {
+          display: flex; }
+          footer .f-t ul li a b {
+            width: 50px;
+            height: 50px;
+            display: block;
+            background-position: 0 0; }
+          footer .f-t ul li a b:hover {
+            background-position: 0 -50px; }
+          footer .f-t ul li a .b2 {
+            background-position: -50px 0; }
+          footer .f-t ul li a .b2:hover {
+            background-position: -50px -50px; }
+          footer .f-t ul li a .b3 {
+            background-position: -100px 0; }
+          footer .f-t ul li a .b3:hover {
+            background-position: -100px -50px; }
+          footer .f-t ul li a .b4 {
+            background-position: -150px 0; }
+          footer .f-t ul li a .b4:hover {
+            background-position: -150px -50px; }
+          footer .f-t ul li a .b5 {
+            background-position: -200px 0; }
+          footer .f-t ul li a .b5:hover {
+            background-position: -200px -50px; }
+          footer .f-t ul li a .b6 {
+            background-position: -250px 0; }
+          footer .f-t ul li a .b6:hover {
+            background-position: -250 -50px; }
+          footer .f-t ul li a span {
+            margin-left: 10px;
+            display: block; }
+  footer .f-c {
+    height: 150px;
+    border-bottom: 1px solid #e3e3e3; }
+    footer .f-c .f-c-c {
+      height: 150px;
+      width: 1200px;
+      margin: 0 auto;
+      background: url(../foot/f1.png) no-repeat 1050px 10px; }
+      footer .f-c .f-c-c dl {
+        float: left;
+        width: 180px; }
+        footer .f-c .f-c-c dl dt {
+          font: 16px/18px "";
+          margin: 20px 0 12px; }
+        footer .f-c .f-c-c dl dd {
+          text-indent: 5px;
+          width: 165px;
+          height: 20px;
+          position: relative; }
+          footer .f-c .f-c-c dl dd i {
+            display: inline-block;
+            width: 3px;
+            height: 3px;
+            background-position: -2px -127px;
+            position: absolute;
+            top: 8px;
+            left: -8px; }
+        footer .f-c .f-c-c dl a:hover {
+          color: #34b9bc; }
+          footer .f-c .f-c-c dl a:hover i {
+            background-position: -2px -112px; }
+  footer .f-b {
+    text-align: center; }
+    footer .f-b .menu {
+      margin: 20px 0 10px; }
+      footer .f-b .menu span {
+        background: #34b9bc;
+        display: block;
+        width: 756px;
+        height: 32px;
+        margin: 0 auto;
+        font: 16px/32px ""; }
+        footer .f-b .menu span a {
+          color: #fff; }
+        footer .f-b .menu span i {
+          color: #fff; }
+    footer .f-b p {
+      width: 450px;
+      height: 22px;
+      margin: 0 auto;
+      font: 12px/22px "";
+      color: #000; }
+    footer .f-b .f-b-b b {
+      display: block;
+      font: 12px/22px "";
+      padding-top: 10px; }
