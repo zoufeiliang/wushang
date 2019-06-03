@@ -1,0 +1,55 @@
+header{
+    height:92px;
+}
+main{
+    height:600px;
+    background:#eeeeee;
+    .margin{
+        display:flex;
+
+        img{
+            margin:100px 70px 0 120px;
+        }
+        .log{
+            height:400px;width:350px;background:#fff;margin-top:100px;
+            .dz{
+                font-size:16px;
+                font-weight:700;
+                margin-top:52px;
+                padding-bottom:25px;
+                .d{
+                    color:#049ca2;                
+                    margin:0 40px 0 80px;
+                }
+                .z{
+                    
+                    color:#000;
+                }
+            }
+            .form{
+                form{
+                    input{
+                        
+                        width:300px;height:40px;margin:0 0 22px 20px;
+                    }
+                    .pass{
+                        width:300px;height:34px;
+                        margin-left:20px;
+                    }
+                    .b{
+                        width:300px;height:42px;background:#ff3333;
+                        border:none;
+                        font:18px/42px "";
+                        color:#fff;
+                    }
+
+                }
+            }
+
+    
+        }
+    }
+    
+   
+   
+}

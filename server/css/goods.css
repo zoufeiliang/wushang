@@ -1,0 +1,92 @@
+.margin {
+  width: 1200px;
+  margin: 0 auto; }
+
+header .top {
+  text-align: center;
+  font: 12px/30px "";
+  height: 30px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f2f2f2; }
+  header .top .left {
+    float: left; }
+    header .top .left a {
+      margin-left: 5px; }
+  header .top .right {
+    float: right; }
+    header .top .right a {
+      padding: 0 22px 0 10px; }
+      header .top .right a i {
+        display: inline-block;
+        width: 7px;
+        height: 4px;
+        background: url(../images/head1.png) center no-repeat;
+        margin: 0 0 3px 5px; }
+
+header .center {
+  height: 108px; }
+  header .center .left {
+    width: 210px;
+    float: left; }
+  header .center .right {
+    margin: 20px 210px 0 0;
+    width: 514px;
+    float: right; }
+    header .center .right .search #txt {
+      width: 430px;
+      height: 34px;
+      float: left;
+      border: 3px solid #00b5be;
+      outline: none; }
+    header .center .right .search #btn {
+      width: 78px;
+      height: 40px;
+      float: left;
+      background: #00b5be;
+      border: none;
+      color: #fff;
+      outline: none; }
+    header .center .right .bottom a {
+      font: 12px/28px "";
+      padding: 0 10px 0 10px;
+      height: 28px;
+      width: 40px;
+      background: url(../images/head2.png) no-repeat right center; }
+    header .center .right .bottom .hot {
+      color: #fea100; }
+
+header .nav {
+  background: #00b5be;
+  font: 16px/40px "";
+  height: 40px;
+  text-align: center; }
+  header .nav .item {
+    position: relative; }
+    header .nav .item .left {
+      float: left;
+      width: 200px;
+      height: 40px;
+      display: block;
+      background: #00b5be;
+      color: #fff; }
+    header .nav .item .one {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 40px;
+      width: 200px;
+      height: 400px;
+      background: #00b5be; }
+  header .nav ul {
+    width: 592px;
+    height: 40px;
+    float: left;
+    display: flex;
+    margin-left: 10px; }
+    header .nav ul li a {
+      padding: 0 20px; }
+    header .nav ul li :hover {
+      color: #00b5be; }
+    header .nav ul li .hot {
+      color: #fea100;
+      font-weight: 700; }

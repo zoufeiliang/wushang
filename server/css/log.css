@@ -1,0 +1,40 @@
+header {
+  height: 92px; }
+
+main {
+  height: 600px;
+  background: #eeeeee; }
+  main .margin {
+    display: flex; }
+    main .margin img {
+      margin: 100px 70px 0 120px; }
+    main .margin .log {
+      height: 400px;
+      width: 350px;
+      background: #fff;
+      margin-top: 100px; }
+      main .margin .log .dz {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 52px;
+        padding-bottom: 25px; }
+        main .margin .log .dz .d {
+          color: #049ca2;
+          margin: 0 40px 0 80px; }
+        main .margin .log .dz .z {
+          color: #000; }
+      main .margin .log .form form input {
+        width: 300px;
+        height: 40px;
+        margin: 0 0 22px 20px; }
+      main .margin .log .form form .pass {
+        width: 300px;
+        height: 34px;
+        margin-left: 20px; }
+      main .margin .log .form form .b {
+        width: 300px;
+        height: 42px;
+        background: #ff3333;
+        border: none;
+        font: 18px/42px "";
+        color: #fff; }
