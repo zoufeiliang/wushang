@@ -24,7 +24,7 @@ header{
                 display: inline-block;
                 width:7px;
                 height:4px;
-                background:url(../images/head1.png)center no-repeat;
+                background:url(../images/index-images/head1.png)center no-repeat;
                 margin:0 0 3px 5px ;
             }}
         }
@@ -52,7 +52,7 @@ header{
                     padding:0 10px 0 10px;
                     height:28px;
                     width:40px;
-                    background:url(../images/head2.png)no-repeat right center;
+                    background:url(../images/index-images/head2.png)no-repeat right center;
                     
                     
                     
@@ -84,6 +84,14 @@ header{
                 width:200px;
                 height:400px;
                 background:#e6243f;
+                div{
+                    width:200px;height:33px;
+                    a{color:#fff;}
+                }
+                div:hover{
+                    background:#ff7c14;
+                    font:16px/33px "";
+                }
                
                     
                 
@@ -112,6 +120,7 @@ header{
                 width:208px;
                 height:400px;
                 background:#fff;
+                a:hover{color:#34b9bc;}
             }
             .right{
                 float: right;
@@ -141,10 +150,12 @@ header{
             top:0;left:200px;
         }
     }
+    
+     .btns input{position:absolute;height:60px;width:100px;border:none;background:rgb(200,200,200,0.6);top:110px;color:#fff;}
 }
 .main{
     height:420px;   
-    background:url(../images/main.jpg) no-repeat center;
+    background:url(../images/index-images/main.jpg) no-repeat center;
     .m-c{
         
         img{
@@ -182,12 +193,38 @@ header{
         }
     }
 }
-
+.pro{
+    .brand{
+        overflow: hidden;
+        img{width:585px;height:358px;float: left;margin:15px 15px 0 0;}
+    }
+    .bea2{
+        overflow: hidden;
+        img{width:585px;height:358px;float: left;margin:15px 15px 0 0;}
+    }
+    .gold2{
+        overflow: hidden;
+        img{width:585px;height:358px;float: left;margin:15px 15px 0 0;}
+    }
+    .house2{
+        overflow: hidden;
+        img{width:585px;height:358px;float: left;margin:15px 15px 0 0;}
+    }
+    .food2{
+        overflow: hidden;
+        img{width:585px;height:358px;float: left;margin:15px 15px 0 0;}
+    }
+    .app2{
+        overflow: hidden;
+        img{width:585px;height:358px;float: left;margin:15px 15px 0 0;}
+    }
+}
 
 
 footer{
     border-top:5px solid #34b9bc;
     height:443px;
+    margin-top:15px;
     .f-t{
         height:82px;
         

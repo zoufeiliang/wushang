@@ -1,8 +1,8 @@
-class List {
+class List7 {
     constructor() {
-        this.cont = document.querySelector(".brand")
+        this.cont = document.querySelector(".app2")
         console.log(this.cont)
-        this.url = "../../json/brand.json";
+        this.url = "../../json/app.json";
 
         this.init();
         
@@ -30,4 +30,4 @@ class List {
         console.log(this.cont.innerHTML)
     }
 }
-new List();
+new List7();

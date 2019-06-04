@@ -23,7 +23,7 @@ header .top {
         display: inline-block;
         width: 7px;
         height: 4px;
-        background: url(../images/head1.png) center no-repeat;
+        background: url(../images/index-images/head1.png) center no-repeat;
         margin: 0 0 3px 5px; }
 
 header .center {
@@ -57,7 +57,7 @@ header .center {
       padding: 0 10px 0 10px;
       height: 28px;
       width: 40px;
-      background: url(../images/head2.png) no-repeat right center; }
+      background: url(../images/index-images/head2.png) no-repeat right center; }
     header .center .right .bottom .hot {
       color: #e6243f; }
 
@@ -81,6 +81,14 @@ header .nav {
       width: 200px;
       height: 400px;
       background: #e6243f; }
+      header .nav .item .one div {
+        width: 200px;
+        height: 33px; }
+        header .nav .item .one div a {
+          color: #fff; }
+      header .nav .item .one div:hover {
+        background: #ff7c14;
+        font: 16px/33px ""; }
   header .nav ul {
     width: 592px;
     height: 40px;
@@ -103,6 +111,8 @@ header .nav {
       width: 208px;
       height: 400px;
       background: #fff; }
+      header .nav .item2 .one2 a:hover {
+        color: #34b9bc; }
     header .nav .item2 .right {
       float: right;
       width: 208px;
@@ -123,7 +133,7 @@ header .nav {
 
 .main {
   height: 420px;
-  background: url(../images/main.jpg) no-repeat center; }
+  background: url(../images/index-images/main.jpg) no-repeat center; }
   .main .m-c img {
     float: left; }
   .main .m-b ul {
@@ -147,9 +157,58 @@ header .nav {
           font-weight: 700;
           font-size: 18px; }
 
+.pro .brand {
+  overflow: hidden; }
+  .pro .brand img {
+    width: 585px;
+    height: 358px;
+    float: left;
+    margin: 15px 15px 0 0; }
+
+.pro .bea2 {
+  overflow: hidden; }
+  .pro .bea2 img {
+    width: 585px;
+    height: 358px;
+    float: left;
+    margin: 15px 15px 0 0; }
+
+.pro .gold2 {
+  overflow: hidden; }
+  .pro .gold2 img {
+    width: 585px;
+    height: 358px;
+    float: left;
+    margin: 15px 15px 0 0; }
+
+.pro .house2 {
+  overflow: hidden; }
+  .pro .house2 img {
+    width: 585px;
+    height: 358px;
+    float: left;
+    margin: 15px 15px 0 0; }
+
+.pro .food2 {
+  overflow: hidden; }
+  .pro .food2 img {
+    width: 585px;
+    height: 358px;
+    float: left;
+    margin: 15px 15px 0 0; }
+
+.pro .app2 {
+  overflow: hidden; }
+  .pro .app2 img {
+    width: 585px;
+    height: 358px;
+    float: left;
+    margin: 15px 15px 0 0; }
+
 footer {
   border-top: 5px solid #34b9bc;
-  height: 443px; }
+  height: 443px;
+  margin-top: 15px; }
   footer .f-t {
     height: 82px;
     border-bottom: 1px solid #e3e3e3; }

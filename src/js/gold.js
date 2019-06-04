@@ -1,12 +1,4 @@
 [{
-    "src":"../images/json/j17.jpg" 
- },{
-    "src":"../images/json/j18.jpg" 
- },{
-    "src":"../images/json/j19.jpg" 
- },{
-    "src":"../images/json/j20.jpg" 
- },{
     "src":"../images/json/j21.jpg" 
  },{
     "src":"../images/json/j22.jpg" 
@@ -18,4 +10,4 @@
     "src":"../images/json/j25.jpg" 
  },{
     "src":"../images/json/j26.jpg" 
- }]
+ },]
