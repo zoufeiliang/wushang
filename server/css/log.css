@@ -26,7 +26,8 @@ main {
       main .margin .log .form form input {
         width: 300px;
         height: 40px;
-        margin: 0 0 22px 20px; }
+        margin: 0 0 22px 20px;
+        font-size: 16px; }
       main .margin .log .form form .pass {
         width: 300px;
         height: 34px;
@@ -38,3 +39,7 @@ main {
         border: none;
         font: 18px/42px "";
         color: #fff; }
+      main .margin .log .form form .txt1 .t1 {
+        text-indent: 10px; }
+      main .margin .log .form form .txt2 .t2 {
+        text-indent: 10px; }

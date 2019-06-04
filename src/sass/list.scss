@@ -1,0 +1,16 @@
+.list{
+    ul{
+        width:1200px;overflow: hidden;
+       li{
+           a{
+               display: block;
+               img{width:180px;height:180px;background:#e5e5e5;}
+               span{display: block;}
+           }
+           float: left;
+           margin:20px;
+        
+       } 
+    }
+    
+}

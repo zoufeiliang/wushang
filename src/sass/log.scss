@@ -31,6 +31,7 @@ main{
                     input{
                         
                         width:300px;height:40px;margin:0 0 22px 20px;
+                        font-size:16px;
                     }
                     .pass{
                         width:300px;height:34px;
@@ -41,6 +42,12 @@ main{
                         border:none;
                         font:18px/42px "";
                         color:#fff;
+                    }
+                    .txt1{
+                        .t1{text-indent:10px;}
+                    }
+                    .txt2{
+                        .t2{text-indent:10px;}
                     }
 
                 }

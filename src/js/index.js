@@ -1,12 +1,18 @@
-$(".one ").children("div").hover(function () {
-    
-    $(".cont").css({
-        
-        display: "block"
+
+$(".one").children("div").hover(function () {
+    $(this).children(".cont").css({
+        display:"block"
     })
 }, function () {
-    $(".cont").css({
-        display: "none"
-    })
+    $(this).children(".cont").css({
+        display:"none"
+    })   
 })
-console.log($(".cont "))
+
+$(".xia").mouseover(function(){
+     
+    $(".xia ul").stop().slideDown(1000);
+})
+
+
+
