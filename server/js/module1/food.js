@@ -1,7 +1,7 @@
 class List4 {
     constructor() {
         this.cont = document.querySelector(".food2")
-        console.log(this.cont)
+       // console.log(this.cont)
         this.url = "../../json/food.json";
 
         this.init();
@@ -27,7 +27,7 @@ class List4 {
         
         }
         this.cont.innerHTML = str;
-        console.log(this.cont.innerHTML)
+      //  console.log(this.cont.innerHTML)
     }
 }
 new List4();

@@ -29,11 +29,9 @@
                 <li><a href="#"><img src="banner/banner4.jpg"/></a></li>
                 <li><a href="#"><img src="banner/banner5.jpg"/></a></li>
                 <li><a href="#"><img src="banner/banner6.jpg"/></a></li>
+                
             </ul>
-            <div class="btns">
-                <input type="button" id="left" value="<<<">
-                <input type="button" id="right" value=">>>">
-            </div>
+            
         </div>
 
     </div>
@@ -128,32 +126,42 @@
         </div>
         
     </div>
-    <div class="pro margin">
-        <div class="bra">
-            <img src="images/index-images/art.png"/>
-            <div class="brand"></div>
-        </div>
-        <div class="bea">
-            <img src="images/index-images/art2.png"/>
-            <div class="bea2">
-               
+    <div class="pro">
+        <ul class="floor">
+            <li><a href="#">精选品牌</a></li>
+            <li><a href="#">美妆个护</a></li>
+            <li><a href="#">黄金珠宝</a></li>
+            <li><a href="#">居家百货</a></li>
+            <li><a href="#">食品酒水</a></li>
+            <li><a href="#">数码家电</a></li>
+        </ul>
+        <div class="margin">
+            <div class="box">
+                <img src="images/index-images/art.png"/>
+                <div class="brand"></div>
             </div>
-        </div>
-        <div class="gold">
-            <img src="images/index-images/art3.png"/>
-            <div class="gold2"></div>
-        </div>
-        <div class="house">
-            <img src="images/index-images/art4.png"/>
-            <div class="house2"></div>
-        </div>
-        <div class="food">
-            <img src="images/index-images/art5.png"/>
-            <div class="food2"></div>
-        </div>
-        <div class="app">
-            <img src="images/index-images/art6.png"/>
-            <div class="app2"></div>
+            <div class="box">
+                <img src="images/index-images/art2.png"/>
+                <div class="bea2">
+                    
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/index-images/art3.png"/>
+                <div class="gold2"></div>
+            </div>
+            <div class="box">
+                <img src="images/index-images/art4.png"/>
+                <div class="house2"></div>
+            </div>
+            <div class="box">
+                <img src="images/index-images/art5.png"/>
+                <div class="food2"></div>
+            </div>
+            <div class="box">
+                <img src="images/index-images/art6.png"/>
+                <div class="app2"></div>
+            </div>
         </div>
     </div>
     <footer>
@@ -172,15 +180,10 @@
     
     <script src="public/js/jquery.banner.1.0.0.js"></script>
     <script src="js/module1/banner.js"></script>
+    <script src="js/module1/floor.js"></script>
     <script>
-        $(".banner").banner({
-            items: $(".banner .margin ul li").children(),
-            left: $(".banner #left"),
-            right: $(".banner #right"),
-            list: true,
-            index: 2,
-            autoPlay: true
-        })
+        console.log( $(".banner .margin ul li img"))
+        console.log(1)
     </script>
-
+    
 </html>

@@ -144,14 +144,21 @@ header{
 .banner{
     background: #f3e9df;
     height:400px;
-    ul{position: relative;
+    
+    
+    ul{position: relative;width:792px;height:400px;left:200px;overflow: hidden;
         li{
-            position: absolute;
-            top:0;left:200px;
+            width:792px;height:400px;
+            img{
+                width:792px;height:400px;position: absolute;left:792px;top:0px;
+            }
+           
         }
+        
+        
     }
     
-     .btns input{position:absolute;height:60px;width:100px;border:none;background:rgb(200,200,200,0.6);top:110px;color:#fff;}
+     
 }
 .main{
     height:420px;   
@@ -194,6 +201,17 @@ header{
     }
 }
 .pro{
+    .floor{
+        position: fixed;left:300px;bottom:80px;height:240px;background:#e6243f;
+        li{
+            width:30px;height:40px;
+            text-align: center;
+            a{color:#fff;}
+        }
+        li:hover{background:#fff;
+            a{color:#e6243f}
+        }
+    }
     .brand{
         overflow: hidden;
         img{width:585px;height:358px;float: left;margin:15px 15px 0 0;}

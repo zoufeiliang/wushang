@@ -86,10 +86,10 @@
                 position: "absolute",
                 display: "flex",
                 listStyle: "none",
-                bottom: 10,
+                bottom: -360,
                 margin: 0,
                 padding: 0,
-                left: 330,
+                left: 300,
                 
             }).children().css({
                 height: 20,

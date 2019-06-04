@@ -125,11 +125,20 @@ header .nav {
   background: #f3e9df;
   height: 400px; }
   .banner ul {
-    position: relative; }
+    position: relative;
+    width: 792px;
+    height: 400px;
+    left: 200px;
+    overflow: hidden; }
     .banner ul li {
-      position: absolute;
-      top: 0;
-      left: 200px; }
+      width: 792px;
+      height: 400px; }
+      .banner ul li img {
+        width: 792px;
+        height: 400px;
+        position: absolute;
+        left: 792px;
+        top: 0px; }
 
 .main {
   height: 420px;
@@ -156,6 +165,23 @@ header .nav {
           color: #e6243f;
           font-weight: 700;
           font-size: 18px; }
+
+.pro .floor {
+  position: fixed;
+  left: 300px;
+  bottom: 80px;
+  height: 240px;
+  background: #e6243f; }
+  .pro .floor li {
+    width: 30px;
+    height: 40px;
+    text-align: center; }
+    .pro .floor li a {
+      color: #fff; }
+  .pro .floor li:hover {
+    background: #fff; }
+    .pro .floor li:hover a {
+      color: #e6243f; }
 
 .pro .brand {
   overflow: hidden; }

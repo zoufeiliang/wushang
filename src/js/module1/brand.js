@@ -1,7 +1,7 @@
 class List {
     constructor() {
         this.cont = document.querySelector(".brand")
-        console.log(this.cont)
+      //  console.log(this.cont)
         this.url = "../../json/brand.json";
 
         this.init();
@@ -27,7 +27,7 @@ class List {
         
         }
         this.cont.innerHTML = str;
-        console.log(this.cont.innerHTML)
+      //  console.log(this.cont.innerHTML)
     }
 }
 new List();
