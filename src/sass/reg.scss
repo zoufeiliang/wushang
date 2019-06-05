@@ -18,12 +18,12 @@ main{
                 margin-top:52px;
                 padding-bottom:25px;
                 .d{
-                    color:#049ca2;                
+                    color:#000;               
                     margin:0 40px 0 80px;
                 }
                 .z{
+                    color:#049ca2;
                     
-                    color:#000;
                 }
             }
             .form{
@@ -43,13 +43,17 @@ main{
                         font:18px/42px "";
                         color:#fff;
                     }
-                    .txt1{
-                        .t1{text-indent:10px;}
-                    }
-                    .txt2{
-                        .t2{text-indent:10px;}
-                    }
+                    
+                    .t1{text-indent:10px;}
+                    
+                    
+                    .t2{text-indent:10px;}
+                    .t3{text-indent:10px;}
+                   
                     .pass{
+                        a{
+                            color:#049ca2;
+                        }
                         .msg{color:#ff3333}
                     }
 

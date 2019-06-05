@@ -109,3 +109,38 @@ header{
         }
         
 }
+.cake{
+    overflow: hidden;
+    margin-top:34px;
+    .cake-l{
+        float: left;
+        .box{
+            .big{
+                width:350px;height:350px;border:1px solid #ededed;
+                img{
+                    width:350px;height:350px;
+                }
+            }
+        }
+    }
+    .cake-r{
+        float:left;
+        width:836px;
+        margin-left:10px;
+        a{width:172px;height:40px;
+            font:18px/40px "";text-align:center;
+            color:#fff;
+            display:block;
+        }
+        .bc{
+            .buy{
+                background:#fea100;
+            }
+            .car{
+                background:#ff3333;
+            }
+        }
+        
+    }
+
+}

@@ -23,7 +23,7 @@ class List {
         for (var i = 0; i < this.res.length; i++) {
             str += `
                         <li>
-                            <a href="#">
+                            <a href="http://localhost:8383/goods.html">
                                 <img data-src="${this.res[i].src}"/>
                                 <span>${this.res[i].price}</span>
                                 <p>${this.res[i].name}</p>

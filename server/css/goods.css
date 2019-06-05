@@ -90,3 +90,31 @@ header .nav {
     header .nav ul li .hot {
       color: #fea100;
       font-weight: 700; }
+
+.cake {
+  overflow: hidden;
+  margin-top: 34px; }
+  .cake .cake-l {
+    float: left; }
+    .cake .cake-l .box .big {
+      width: 350px;
+      height: 350px;
+      border: 1px solid #ededed; }
+      .cake .cake-l .box .big img {
+        width: 350px;
+        height: 350px; }
+  .cake .cake-r {
+    float: left;
+    width: 836px;
+    margin-left: 10px; }
+    .cake .cake-r a {
+      width: 172px;
+      height: 40px;
+      font: 18px/40px "";
+      text-align: center;
+      color: #fff;
+      display: block; }
+    .cake .cake-r .bc .buy {
+      background: #fea100; }
+    .cake .cake-r .bc .car {
+      background: #ff3333; }

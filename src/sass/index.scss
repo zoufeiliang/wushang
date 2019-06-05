@@ -15,7 +15,13 @@ header{
         background:#f2f2f2;
         .left{
             float: left;
-            a{margin-left:5px;}
+            a{margin:0 10px;float:left;}
+            .login-success{display: none;
+            float:left;}
+            .logout{padding: 0 10px;}
+            p{
+                span{color:#e6243f;}
+            }
         }
         .right{
             float: right;

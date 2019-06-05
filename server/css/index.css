@@ -14,7 +14,15 @@ header .top {
   header .top .left {
     float: left; }
     header .top .left a {
-      margin-left: 5px; }
+      margin: 0 10px;
+      float: left; }
+    header .top .left .login-success {
+      display: none;
+      float: left; }
+    header .top .left .logout {
+      padding: 0 10px; }
+    header .top .left p span {
+      color: #e6243f; }
   header .top .right {
     float: right;
     position: relative;

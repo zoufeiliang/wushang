@@ -1,4 +1,4 @@
-class Login {
+class Log {
     constructor() {
         this.user = document.querySelector(".form .t1");
         this.pass = document.querySelector(".form .t2");
@@ -33,7 +33,7 @@ class Login {
                 this.msg.innerHTML = "登录成功，三秒后跳转到首页";
                 // 三秒后跳转
                 setTimeout(() => {
-                    location.href = "index.html";
+                    location.href = "http://localhost:8383/index.html";
                 }, 3000);
                 // 结束
                 return;
@@ -45,4 +45,4 @@ class Login {
 }
 
 
-new Login;   
+new Log;   
