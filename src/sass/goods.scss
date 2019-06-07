@@ -99,7 +99,7 @@ header{
                     padding:0 20px;
                     
                 }
-                :hover{color:#00b5be;}
+                :hover{color:#fff;}
                 .hot{color:#fea100;font-weight: 700;}
             }
         }
@@ -110,33 +110,68 @@ header{
         
 }
 .cake{
+    
     overflow: hidden;
     margin-top:34px;
     .cake-l{
         float: left;
         .box{
-            .big{
-                width:350px;height:350px;border:1px solid #ededed;
+            .small{
+                width:400px;height:400px;border:1px solid #ededed;position: relative;
+                span{
+                    width:200px;height:200px;position: absolute;
+                    left:0px;top:0px;background:rgba(220,220,220,.4);display: none;
+                }
                 img{
-                    width:350px;height:350px;
+                    width:400px;height:400px;
                 }
             }
+            .big{
+                width:400px;height:400px;border:1px solid #ededed;position: absolute;overflow: hidden;
+                left:760px;top:214px;display:none;
+                img{
+                    width:800px;height:800px;position: absolute;
+                }
+                
+            }
+
         }
     }
     .cake-r{
         float:left;
-        width:836px;
-        margin-left:10px;
+        width:780px;
+        margin-left:16px;
         a{width:172px;height:40px;
             font:18px/40px "";text-align:center;
             color:#fff;
             display:block;
         }
+        .pir{
+            h1{
+                margin:10px 0 ;
+            }
+            h2{
+                color:#ff3333;
+                font-size:12px;
+            }
+            p{
+                color:#ff3333;
+                font-weight:700;
+               height:100px;font:20px/100px "";
+
+               text-indent: 30px;
+            }
+        }
         .bc{
+            overflow: hidden;
             .buy{
+                float: left;
+                margin-right:10px;
                 background:#fea100;
             }
             .car{
+                float: left;
+                margin-right:10px;
                 background:#ff3333;
             }
         }

@@ -5,15 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>购物车</title>
-    <link rel="stylesheet" href="public/css/public.css"/>  
-    <link rel="stylesheet" href="css/list.css"/>
+    <link rel="stylesheet" href="public/css/public.css"/>
+    <link rel="stylesheet" href="css/index.css"/>  
+    <link rel="stylesheet" href="css/car.css"/>
 </head>
+<script src="public/js/jquery.2.2.4.js"></script>
+<script>
+    $(function(){                       
+        $("footer").load("http://localhost:8383/foot/footer.html .box2")
+        $("header").load("http://localhost:8383/public/html/goods-head.html .box3")
+        
+    })
+</script>
 <body>
     <header>
-        <div class="margin">
-            <a href="http://localhost:8383/index.html"><img src="images/log/log1.png"/></a>
-        </div>
+        
             
     </header>
+    <div class="car margin">
+        <div class="go">
+            <span>🛒购物车</span>
+            <a href="http://localhost:8383/goods.html">继续购物</a>
+        </div>
+        <div class="shopping">
+            <table>
+                <thead>
+                    <tr>
+                        <th>选中</th>
+                        <th>图片</th>
+                        <th>名字</th>
+                        <th>价格</th>
+                        <th>数量</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
 </body>
+<script src="public/js/cookie.js"></script>
+<script src="public/js/ajax.2.0.js"></script>
+<script src="js/car.js"></script>
 </html>

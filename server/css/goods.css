@@ -86,7 +86,7 @@ header .nav {
     header .nav ul li a {
       padding: 0 20px; }
     header .nav ul li :hover {
-      color: #00b5be; }
+      color: #fff; }
     header .nav ul li .hot {
       color: #fea100;
       font-weight: 700; }
@@ -96,17 +96,39 @@ header .nav {
   margin-top: 34px; }
   .cake .cake-l {
     float: left; }
+    .cake .cake-l .box .small {
+      width: 400px;
+      height: 400px;
+      border: 1px solid #ededed;
+      position: relative; }
+      .cake .cake-l .box .small span {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: rgba(220, 220, 220, 0.4);
+        display: none; }
+      .cake .cake-l .box .small img {
+        width: 400px;
+        height: 400px; }
     .cake .cake-l .box .big {
-      width: 350px;
-      height: 350px;
-      border: 1px solid #ededed; }
+      width: 400px;
+      height: 400px;
+      border: 1px solid #ededed;
+      position: absolute;
+      overflow: hidden;
+      left: 760px;
+      top: 214px;
+      display: none; }
       .cake .cake-l .box .big img {
-        width: 350px;
-        height: 350px; }
+        width: 800px;
+        height: 800px;
+        position: absolute; }
   .cake .cake-r {
     float: left;
-    width: 836px;
-    margin-left: 10px; }
+    width: 780px;
+    margin-left: 16px; }
     .cake .cake-r a {
       width: 172px;
       height: 40px;
@@ -114,7 +136,24 @@ header .nav {
       text-align: center;
       color: #fff;
       display: block; }
-    .cake .cake-r .bc .buy {
-      background: #fea100; }
-    .cake .cake-r .bc .car {
-      background: #ff3333; }
+    .cake .cake-r .pir h1 {
+      margin: 10px 0; }
+    .cake .cake-r .pir h2 {
+      color: #ff3333;
+      font-size: 12px; }
+    .cake .cake-r .pir p {
+      color: #ff3333;
+      font-weight: 700;
+      height: 100px;
+      font: 20px/100px "";
+      text-indent: 30px; }
+    .cake .cake-r .bc {
+      overflow: hidden; }
+      .cake .cake-r .bc .buy {
+        float: left;
+        margin-right: 10px;
+        background: #fea100; }
+      .cake .cake-r .bc .car {
+        float: left;
+        margin-right: 10px;
+        background: #ff3333; }

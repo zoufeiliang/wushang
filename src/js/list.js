@@ -23,7 +23,7 @@ class List {
         for (var i = 0; i < this.res.length; i++) {
             str += `
                         <li>
-                            <a href="http://localhost:8383/goods.html">
+                            <a href="http://localhost:8383/goods.html" index="${this.res[i].id}">
                                 <img data-src="${this.res[i].src}"/>
                                 <span>${this.res[i].price}</span>
                                 <p>${this.res[i].name}</p>
@@ -36,7 +36,9 @@ class List {
         this.cont.innerHTML = str;
       //  console.log(this.cont.innerHTML)
       var aimg = document.querySelectorAll(".list img");
-      console.log(aimg)
+        console.log(aimg)
+        this.sendId();
+        
           var clientH = document.documentElement.clientHeight;
           // console.log(aimg[0].src)
       
@@ -61,6 +63,45 @@ class List {
       
       
     }
+    sendId() {
+        var that = this;
+        $(".list a").click(function () {
+            that.id = $(this).attr("index");
+            console.log(that.id)
+            that.setCookie();
+        })
+    }
+    setCookie() {
+        this.goods = getCookie("shangpin");
+                if(this.goods){
+                    //解析数据，先转为json
+                    this.goods = JSON.parse(this.goods)
+                    //判断是否是重复数据，
+                    var onoff = true;
+                    //遍历数组
+                    for(var i=0;i<this.goods.length;i++){
+                        if(this.goods[i].id ==this.id){
+                            this.goods[i].num ++;
+                            onoff = false;
+                        }
+                    }
+                    if(onoff){
+                        this.goods.push({
+                            id:this.id,
+                            num:1
+                        })
+                    }
+                }else{
+                    this.goods = [{
+                        id:this.id,
+                        num:1
+                    }]
+                }
+                //操作完后，把cookie值设置回去
+                setCookie("shangpin",JSON.stringify(this.goods))
+            }
+    
+
 
 }
 new List();
