@@ -81,7 +81,8 @@
 			}
 			getCookie() {
 				this.goods = JSON.parse(getCookie("shangpin"));
-				this.cake = document.querySelector(".cake")				
+				this.cake = document.querySelector(".cake")
+				
 				this.display();
 			}
 			display() {
@@ -111,7 +112,7 @@
 						<div class="bc">
 							<a href="http://localhost:8383/car.html" class="buy">立即购买</a>
 							<a href="http://localhost:8383/car.html" class="car">🛒加入购物车</a>
-							<a href="http://localhost:8383/car.html" class="car">🛒去结算</a>
+							
 						</div>
 					</div>`
 						}
@@ -119,6 +120,49 @@
 				}
 				this.cake.innerHTML = str;
 				new Big();
+				this.event();
+			}
+			event() {
+				var n = 1;
+				
+				var that = this
+				
+				$(".bc a").click(function () {
+					that.goods = getCookie("shangpin");
+					that.goods = JSON.parse(that.goods)
+					that.id = that.goods[0].id;
+					
+					that.goods2 = getCookie("car");
+					if(that.goods2){
+						//解析数据，先转为json
+						console.log(that.goods2)
+						that.goods2 = JSON.parse(that.goods2)
+						
+						//判断是否是重复数据，
+						var onoff = true;
+						//遍历数组
+						for(var i=0;i<that.goods2.length;i++){
+							if(that.goods2[i].id ==that.id){
+								that.goods2[i].num ++;
+								onoff = false;
+							}
+						}
+						if (onoff) {
+							console.log(typeof(that.goods2))
+							that.goods2.push({
+								id:that.id,
+								num:1
+							})
+						}
+					}else{
+						that.goods2 = [{
+							id:that.id,
+							num:1
+						}]
+					}			
+					setCookie("car",JSON.stringify(that.goods2))
+				})
+				
 			}
 		}
 		   

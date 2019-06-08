@@ -1,198 +1,223 @@
 [{
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00",
+    "price":"209.00",
     "id":"1"
 },{
     "src":"../images/list/j2.jpg",
     "name":"如花之花/Flower Cake",
-    "price":"￥199.00",
+    "price":"199.00",
     "id":"2"
 },{
     "src":"../images/list/j3.jpg",
     "name":"朗姆白咖啡蛋糕/Nowhere cake",
-    "price":"￥189.00",
+    "price":"189.00",
     "id":"3"
 },{
     "src":"../images/list/j4.jpg",
     "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
-    "price":"￥179.00",
+    "price":"179.00",
     "id":"4"
 },
 {
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00",
-    "id":"1"
+    "price":"209.00",
+    "id":"5"
 },{
     "src":"../images/list/j2.jpg",
     "name":"如花之花/Flower Cake",
-    "price":"￥199.00",
-    "id":"2"
+    "price":"199.00",
+    "id":"6"
 },{
     "src":"../images/list/j3.jpg",
     "name":"朗姆白咖啡蛋糕/Nowhere cake",
-    "price":"￥189.00",
-    "id":"3"
+    "price":"189.00",
+    "id":"7"
 },{
     "src":"../images/list/j4.jpg",
     "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
-    "price":"￥179.00",
-    "id":"4"
+    "price":"179.00",
+    "id":"8"
 },{
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00",
-    "id":"1"
+    "price":"209.00",
+    "id":"9"
 },{
     "src":"../images/list/j2.jpg",
     "name":"如花之花/Flower Cake",
-    "price":"￥199.00",
-    "id":"2"
+    "price":"199.00",
+    "id":"10"
 },{
     "src":"../images/list/j3.jpg",
     "name":"朗姆白咖啡蛋糕/Nowhere cake",
-    "price":"￥189.00",
-    "id":"3"
+    "price":"189.00",
+    "id":"11"
 },{
     "src":"../images/list/j4.jpg",
     "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
-    "price":"￥179.00",
-    "id":"4"
+    "price":"179.00",
+    "id":"12"
 },
 {
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00",
-    "id":"1"
+    "price":"209.00",
+    "id":"13"
 },{
     "src":"../images/list/j2.jpg",
     "name":"如花之花/Flower Cake",
-    "price":"￥199.00",
-    "id":"2"
+    "price":"199.00",
+    "id":"14"
 },{
     "src":"../images/list/j3.jpg",
     "name":"朗姆白咖啡蛋糕/Nowhere cake",
-    "price":"￥189.00",
-    "id":"3"
+    "price":"189.00",
+    "id":"15"
 },{
     "src":"../images/list/j4.jpg",
     "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
     "price":"￥179.00",
-    "id":"4"
+    "id":"16"
 },{
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00",
-    "id":"1"
+    "price":"209.00",
+    "id":"17"
 },{
     "src":"../images/list/j2.jpg",
     "name":"如花之花/Flower Cake",
-    "price":"￥199.00",
-    "id":"2"
+    "price":"199.00",
+    "id":"18"
 },{
     "src":"../images/list/j3.jpg",
     "name":"朗姆白咖啡蛋糕/Nowhere cake",
-    "price":"￥189.00",
-    "id":"3"
+    "price":"189.00",
+    "id":"19"
 },{
     "src":"../images/list/j4.jpg",
     "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
-    "price":"￥179.00",
-    "id":"4"
-},{
-    "src":"../images/list/j2.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
-},{
-    "src":"../images/list/j3.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "price":"179.00",
+    "id":"20"
 },{
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "price":"209.00",
+    "id":"21"
 },{
     "src":"../images/list/j2.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"如花之花/Flower Cake",
+    "price":"199.00",
+    "id":"22"
 },{
     "src":"../images/list/j3.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"朗姆白咖啡蛋糕/Nowhere cake",
+    "price":"189.00",
+    "id":"23"
 },{
     "src":"../images/list/j4.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
-},
-{
+    "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
+    "price":"179.00",
+    "id":"24"
+},{
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "price":"209.00",
+    "id":"25"
 },{
     "src":"../images/list/j2.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"如花之花/Flower Cake",
+    "price":"199.00",
+    "id":"26"
 },{
     "src":"../images/list/j3.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"朗姆白咖啡蛋糕/Nowhere cake",
+    "price":"189.00",
+    "id":"27"
 },{
     "src":"../images/list/j4.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
+    "price":"179.00",
+    "id":"28"
 },{
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "price":"209.00",
+    "id":"29"
 },{
     "src":"../images/list/j2.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"如花之花/Flower Cake",
+    "price":"199.00",
+    "id":"30"
 },{
     "src":"../images/list/j3.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"朗姆白咖啡蛋糕/Nowhere cake",
+    "price":"189.00",
+    "id":"31"
 },{
     "src":"../images/list/j4.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
-},
-{
-    "src":"../images/list/j1.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
-},{
-    "src":"../images/list/j2.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
-},{
-    "src":"../images/list/j3.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
+    "price":"179.00",
+    "id":"32"
 },{
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "price":"209.00",
+    "id":"33"
 },{
     "src":"../images/list/j2.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"如花之花/Flower Cake",
+    "price":"199.00",
+    "id":"34"
 },{
     "src":"../images/list/j3.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "name":"朗姆白咖啡蛋糕/Nowhere cake",
+    "price":"189.00",
+    "id":"35"
 },{
     "src":"../images/list/j4.jpg",
-    "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
-},
-{
+    "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
+    "price":"179.00",
+    "id":"36"
+},{
     "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "price":"209.00",
+    "id":"37"
 },{
     "src":"../images/list/j2.jpg",
+    "name":"如花之花/Flower Cake",
+    "price":"199.00",
+    "id":"38"
+},{
+    "src":"../images/list/j3.jpg",
+    "name":"朗姆白咖啡蛋糕/Nowhere cake",
+    "price":"189.00",
+    "id":"39"
+},{
+    "src":"../images/list/j4.jpg",
+    "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
+    "price":"179.00",
+    "id":"40"
+},{
+    "src":"../images/list/j1.jpg",
     "name":"芒果奶油（澳芒）/Mango Cake",
-    "price":"￥209.00"
+    "price":"209.00",
+    "id":"41"
+},{
+    "src":"../images/list/j2.jpg",
+    "name":"如花之花/Flower Cake",
+    "price":"199.00",
+    "id":"42"
+},{
+    "src":"../images/list/j3.jpg",
+    "name":"朗姆白咖啡蛋糕/Nowhere cake",
+    "price":"189.00",
+    "id":"43"
+},{
+    "src":"../images/list/j4.jpg",
+    "name":"吉拉朵1#芒果酸奶/Gelato cake 1# Mango",
+    "price":"179.00",
+    "id":"44"
 }]

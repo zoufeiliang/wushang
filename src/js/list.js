@@ -73,35 +73,21 @@ class List {
     }
     setCookie() {
         this.goods = getCookie("shangpin");
-                if(this.goods){
-                    //解析数据，先转为json
-                    this.goods = JSON.parse(this.goods)
-                    //判断是否是重复数据，
-                    var onoff = true;
-                    //遍历数组
-                    for(var i=0;i<this.goods.length;i++){
-                        if(this.goods[i].id ==this.id){
-                            this.goods[i].num ++;
-                            onoff = false;
-                        }
-                    }
-                    if(onoff){
-                        this.goods.push({
-                            id:this.id,
-                            num:1
-                        })
-                    }
-                }else{
-                    this.goods = [{
-                        id:this.id,
-                        num:1
-                    }]
-                }
+        console.log(this.goods)
+        this.goods = [{
+
+            id:this.id
+        }]
                 //操作完后，把cookie值设置回去
-                setCookie("shangpin",JSON.stringify(this.goods))
+        
+        setCookie("shangpin",JSON.stringify(this.goods))
             }
     
 
 
 }
+    
+
+
+
 new List();
